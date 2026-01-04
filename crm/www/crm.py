@@ -17,7 +17,7 @@ def get_context():
 
 	if not check_app_permission():
 		frappe.throw(
-			_("You do not have permission to access Frappe CRM"),
+			_("You do not have permission to access Zibidy CRM"),
 			frappe.PermissionError
 		)
 
